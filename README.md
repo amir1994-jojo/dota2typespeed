@@ -1,72 +1,95 @@
 # dota2typespeed
-A simple Python auto-typing tool for Dota 2 Dark Carnival Mini-Games.
 
-Press F8 to start typing the alphabet (a-z) continuously. Press F8 again to stop.
-Automatically types lowercase English letters (a-z).
+A simple Python auto-typing tool for Dota 2.
 
-Requirements
-Python 3.10 or newer (for running from source).
-pynput Python package.
+Press **F8** to start typing the alphabet (`a-z`) continuously. Press **F8** again to stop.
 
-Installation
-Method 1: Download a Release (Recommended)
+## Features
 
-Go to the ReleasRequirements
+* Automatically types lowercase letters from `a` to `z`.
+* Start and stop typing with F8.
+* Continuously repeats the alphabet while enabled.
 
-Python 3.10 or newer (for running from source).
-pynput Python package.
-Installation
-Method 1: Download a Release (Recommended)
-Go to the Releases page.
-Download the latest release for your operating system.
-Extract the downloaded archive if necessary.
-Run the executable.
+## Requirements
 
-No Python installation is required when using a standalone executable.
+* Python 3.10 or newer.
+* `pynput` Python package.
 
-Method 2: Install from Source
+## Installation
 
-1. Clone the repository
+### Download a Release
 
+1. Go to the [Latest Releases](https://github.com/amir1994-jojo/dota2typespeed/releases/latest) page.
+2. Download the executable for your operating system.
+3. Extract the archive if necessary.
+4. Run the executable.
+
+A standalone executable does not require Python to be installed.
+
+### Install from Source
+
+Clone the repository:
+
+```bash
 git clone https://github.com/amir1994-jojo/dota2typespeed.git
 cd dota2typespeed
+```
 
-2. Install dependencies
+Install dependencies:
 
+```bash
 python -m pip install pynput
+```
 
-3. Run the programes page.
+Run the program:
 
-Download the latest release for your operating system.
-Extract the downloaded archive if necessary.
-Run the executable.
-
-No Python installation is required when using a standalone executable.
-
-Method 2: Install from Source
-
-1. Clone the repository
-
-git clone https://github.com/amir1994-jojo/dota2typespeed.git
-cd dota2typespeed
-
-2. Install dependencies
-
-python -m pip install pynput
-
-3. Run the program
-
+```bash
 python main.py
-Usage
-Start the program.
-Open Dota 2 or another application.
-Press F8 to start typing.
-Press F8 again to stop.
-Windows
+```
 
-Install Python 3.10 or newer from the official Python website.
+## Quick Start
+
+Copy and paste this command to download, install dependencies, and run the program:
+
+```bash
+git clone https://github.com/amir1994-jojo/dota2typespeed.git && cd dota2typespeed && python -m pip install pynput && python main.py
+```
+
+## Usage
+
+1. Run the program.
+2. Open Dota 2 or another application.
+3. Press **F8** to start typing.
+4. Press **F8** again to stop.
+
+## Windows
+
+Install Python from the [official Python website](https://www.python.org/downloads/).
 
 Then run:
 
+```bash
 python -m pip install pynput
 python main.py
+```
+
+## Linux
+
+On Arch Linux, install the required packages:
+
+```bash
+sudo pacman -S python python-pip git
+```
+
+Then install the dependency and run:
+
+```bash
+python -m pip install pynput
+python main.py
+```
+
+## Releases
+
+Download the latest version from the [Releases page](https://github.com/amir1994-jojo/dota2typespeed/releases).
+
+
