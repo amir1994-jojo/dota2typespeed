@@ -1,6 +1,6 @@
 # dota2typespeed
 
-A simple Python auto-typing tool for Dota 2.
+A simple Python auto-typing tool for Dota 2 Dark Carnival Mini-Games .
 
 Press **F8** to start typing the alphabet (`a-z`) continuously. Press **F8** again to stop.
 
